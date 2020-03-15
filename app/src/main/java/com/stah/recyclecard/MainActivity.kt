@@ -18,6 +18,7 @@ class MainActivity : AppCompatActivity() {
 
             layoutManager = LinearLayoutManager(this@MainActivity, RecyclerView.VERTICAL, false)
             adapter = ParentAdapter(listOf("aaa", "bbb"))
+
             //            adapter = ParentAdapter(ParentDataFactory.getParents(40))
         }
     }
