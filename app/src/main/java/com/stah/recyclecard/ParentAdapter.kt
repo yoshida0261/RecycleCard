@@ -31,7 +31,7 @@ class ParentAdapter(val list: List<String>) : RecyclerView.Adapter<RecyclerView.
     }
 
     override fun getItemViewType(position: Int): Int {
-        return position +1 //  本当はここはadapterItemからあちいが
+        return position + 1 //  本当はここはadapterItemから判定する
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecyclerView.ViewHolder {
